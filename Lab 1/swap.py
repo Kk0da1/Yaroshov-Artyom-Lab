@@ -1,8 +1,8 @@
-# a=input()
-# b=input()
-# print(a, b)
-# c=''
-# c=c+b
-# b=a
-# a=''+c
-# print(a, b)
+# q=input()
+# w=input()
+# print(q, w)
+# e=''
+# e=e+w
+# w=q
+# q=''+e
+# print(q, w)
