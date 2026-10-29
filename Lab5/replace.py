@@ -1,4 +1,4 @@
-a=input('Введите текст:')
-c=a.count(':')
-a=a.replace(':', '-')
-print(c, a)
+q=input('Текст:')
+w=q.count(':')
+q=q.replace(':', '-')
+print(w, q)
