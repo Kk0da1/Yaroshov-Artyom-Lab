@@ -1,4 +1,4 @@
-a=[int(input()) for i in range(int(input()))]
-print(a)
-for i in a:
+q=[int(input()) for i in range(int(input()))]
+print(q)
+for i in q:
     print(abs(i))
