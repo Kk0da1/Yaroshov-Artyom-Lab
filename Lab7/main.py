@@ -1,12 +1,12 @@
 from functions import sum_digits, average, normalize_text
 
 # 1. Сумма цифр
-number = int(input("Введите целое число: "))
+number = int(input("Введите число: "))
 print("Сумма цифр:", sum_digits(number))
 
 
 # 2. Среднее списка
-raw = input("Введите числа через пробел: ")
+raw = input("Введите числа: ")
 numbers = [float(x) for x in raw.split()]
 result = average(numbers)
 if result is None:
