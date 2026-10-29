@@ -1,10 +1,10 @@
-a=[int(input()) for i in range(int(input()))]
-print(a)
-a.sort()
-k=0
+q=[int(input()) for i in range(int(input()))]
+print(q)
+q.sort()
+w=0
 sm=0
-for i in a:
+for i in q:
     if i>=10:
-        k+=1
+        w+=1
         sm+=i
-print(a, k, sm)
+print(q, w, sm)
