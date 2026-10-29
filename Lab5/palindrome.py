@@ -1,12 +1,12 @@
-a=input('Введите текст:')
-c=''
-for i in a:
+q=input('Введите текст:')
+w=''
+for i in q:
     if i!=' ':
-        c+=i.lower()
-if a=="":
+        w+=i.lower()
+if q=="":
     print('Слов нет')
 else:
-    if c==c[::-1]:
+    if w==w[::-1]:
         print('Палиндром')
     else:
         print('Не палиндром')
