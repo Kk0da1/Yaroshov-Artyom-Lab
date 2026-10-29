@@ -1,6 +1,6 @@
-a=input('Введите текст:')
-a=a.split()
-for i in a:
+q=input('Текст:')
+q=q.split()
+for i in q:
     i=i.strip(".,!?;:").lower()
     if i[0]==i[-1]:
         print(i)
