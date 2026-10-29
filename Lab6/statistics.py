@@ -1,15 +1,15 @@
-a=[int(input()) for i in range(int(input()))]
-b=0
-c=10000000000
-if len(a)==0:
+q=[int(input()) for i in range(int(input()))]
+w=0
+e=10000000000
+if len(q)==0:
     print('Нет чисел')
 else:
-    for i in a:
-        if i>b:
-            b=i
-    for x in a:
-        if x<c:
-            c=x
-    print(len(a), sum(a), b, c,  f'{sum(a)/len(a):.2f}')
+    for i in q:
+        if i>w:
+            w=i
+    for x in q:
+        if x<e:
+            e=x
+    print(len(q), sum(q), w, e,  f'{sum(q)/len(q):.2f}')
 
 
