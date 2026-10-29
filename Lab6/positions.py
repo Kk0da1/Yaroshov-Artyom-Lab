@@ -1,6 +1,6 @@
-a=[int(input()) for i in range(int(input()))]
-if len(a)==0:
+q=[int(input()) for i in range(int(input()))]
+if len(q)==0:
     print('Нет данных')
 else:
-    b = [i for i, f in enumerate(a) if f ==max(a)]
-print(b)
+    w = [i for i, f in enumerate(q) if f ==max(q)]
+print(w)
